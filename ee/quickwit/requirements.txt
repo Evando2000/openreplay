@@ -1,0 +1,4 @@
+confluent-kafka
+python-decouple
+requests
+zstd
