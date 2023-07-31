@@ -78,8 +78,7 @@ async def or_middleware(request: Request, call_next):
 
 
 origins = [
-    "*",
-    'http://localhost:3000'
+    "*"
 ]
 
 app.add_middleware(
