@@ -27,7 +27,8 @@ app = FastAPI(lifespan=lifespan)
 app.schedule = AsyncIOScheduler()
 
 origins = [
-    "*"
+    "*",
+    'http://localhost:3000'
 ]
 
 app.add_middleware(
